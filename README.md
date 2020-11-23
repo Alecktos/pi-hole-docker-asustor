@@ -12,4 +12,4 @@ Setup for running pi-hole in docker on asustor NAS
 3. Create and start pi-hole container in background
 
 ## password.env
-Create password.env `WEBPASSWORD=MySecretPassword`
+Create `password.env` file with login password `WEBPASSWORD=MySecretPassword`
