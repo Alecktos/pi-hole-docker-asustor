@@ -12,10 +12,7 @@ Setup for running pi-hole in docker on asustor NAS
 ```
 > sh run.sh
 ```
-5. Check that pi-hole admin ui is running
-```
-<yourAsustorIpAddress>/admin/index.php
-```
+5. Check that pi-hole admin ui is running <http://yourAsustorIpAddress/admin/index.php>
 
 ## run.sh
 1. Takes down current running container if any. 
