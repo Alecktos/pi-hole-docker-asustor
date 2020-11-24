@@ -1,9 +1,20 @@
 # pi-hole-docker-asustor
 Setup for running pi-hole in docker on asustor NAS
 
-## Run
+## Usage
+1. Install git and docker on NAS
+2. Login to NAS using ssh.
+3. clone this repo
+```
+> git@github.com:Alecktos/pi-hole-docker-asustor.git
+```
+4. run run.sh to start pi-hole
 ```
 > sh run.sh
+```
+5. Check that pi-hole admin ui is running
+```
+<yourAsustorIpAddress>/admin/index.php
 ```
 
 ## run.sh
