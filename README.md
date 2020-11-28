@@ -8,11 +8,12 @@ Setup for running pi-hole in docker on asustor NAS
 ```
 > git@github.com:Alecktos/pi-hole-docker-asustor.git
 ```
-4. run run.sh to start pi-hole
+4. Create [password.env](#password.env) file containing password
+5. run run.sh to start pi-hole
 ```
 > sh run.sh
 ```
-5. Check that pi-hole admin ui is running <http://yourAsustorIpAddress/admin/index.php>
+6. Check that pi-hole admin ui is running <http://yourAsustorIpAddress/admin/index.php>
 
 ## run.sh
 1. Takes down current running container if any. 
