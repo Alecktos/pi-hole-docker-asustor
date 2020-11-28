@@ -8,7 +8,7 @@ Setup for running pi-hole in docker on asustor NAS
 ```
 > git@github.com:Alecktos/pi-hole-docker-asustor.git
 ```
-4. Create [password.env](#password.env) file containing password
+4. Create [password.env](#passwordenv) file containing password
 5. run run.sh to start pi-hole
 ```
 > sh run.sh
