@@ -15,6 +15,12 @@ Setup for running pi-hole in docker on asustor NAS
 ```
 6. Check that pi-hole admin ui is running <http://yourAsustorIpAddress/admin/index.php>
 
+## Stop
+Stop running pi-hole container 
+```
+> docker-compose down
+```
+
 ## run.sh
 1. Takes down current running container if any. 
 2. Kills `myhttpd` using sudo. Process listens to port 80 and 443, used by pi-hole.
